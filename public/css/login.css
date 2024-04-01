@@ -1,0 +1,28 @@
+.login {
+  min-height: 100vh;
+}
+
+.bg-fondo {
+  background-image: url('../../imagenes/image_1.jpg');
+  
+  background-size: cover;
+  background-position: center;
+}
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+main>.container {
+  padding: 30px 0;
+}
+
+.form-login{
+  max-width: 350px;
+}

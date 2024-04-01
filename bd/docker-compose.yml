@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mySQL:
+    image: mysql:latest
+    restart: always
+    container_name: mydb
+    environment:
+      - MYSQL_DATABASE=tienda_online
+      - MYSQL_ROOT_PASSWORD=utags2023
+    ports:
+      - '3307:3306'
+    volumes:
+      - ./tienda.sql:/docker-entrypoint-initdb.d/tienda.sql
